@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.click-button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.click-button:hover {
+  background-color: #0056b3;
+}
+
+.click-button:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,40 @@
+/* General container styling */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Status message styling */
+.status-message {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Button styling */
+.auth-button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #007bff;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.auth-button:hover {
+  background-color: #0056b3;
+}
+
+/* Change button style for logout */
+.auth-button:active {
+  background-color: #004080;
+}

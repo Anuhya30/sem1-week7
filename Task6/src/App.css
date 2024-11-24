@@ -1,0 +1,36 @@
+.app {
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 24px;
+  color: #0073e6;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: #0073e6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #005bb5;
+}
+
+.text-element {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+}

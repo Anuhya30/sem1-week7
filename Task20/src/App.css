@@ -1,0 +1,46 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light button {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.light button:hover {
+  background-color: #0056b3;
+}
+
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark button {
+  background-color: #ff5722;
+  color: #ffffff;
+}
+
+.dark button:hover {
+  background-color: #e64a19;
+}

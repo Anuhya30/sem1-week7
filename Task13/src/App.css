@@ -1,0 +1,35 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+
+.text-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+
+.text-input:focus {
+  border-color: #007bff;
+}
+
+
+.display-text {
+  font-size: 1.2rem;
+  color: #333;
+}

@@ -1,0 +1,43 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.counter-display {
+  margin: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #555;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn.increment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn.decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
